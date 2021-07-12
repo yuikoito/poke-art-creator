@@ -119,6 +119,7 @@ export default {
         },
         { hid: "og:url", property: "og:url", content: this.url },
         { hid: "og:image", property: "og:image", content: this.image },
+        { name: "twitter:card", content: "summary_large_image" },
         {
           name: "twitter:image",
           content: this.twitterImage,

@@ -265,7 +265,7 @@ export default {
       return `https://poke.art-creator.net/art/${this.uuid}`;
     },
     twitterURL() {
-      const shareText = this.$t("ポケモンAAツクールで素敵なAA画像を作ったよ");
+      const shareText = this.$t("ポケモンAAツクールでAA画像を作ったよ");
       const hash = this.$t("#ポケモンAAツクール");
       return (
         `https://twitter.com/intent/tweet?url=${this.url}&text=` +
@@ -273,7 +273,7 @@ export default {
       );
     },
     facebookURL() {
-      const shareText = this.$t("ポケモンAAツクールで素敵なAA画像を作ったよ");
+      const shareText = this.$t("ポケモンAAツクールでAA画像を作ったよ");
       const hash = this.$t("#ポケモンAAツクール");
       return `https://www.facebook.com/sharer/sharer.php?u=${this.url}&t=${shareText}\n${hash}`;
     },
